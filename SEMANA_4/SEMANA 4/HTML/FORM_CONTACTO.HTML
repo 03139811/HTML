@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/CONTACTO.css">
+</head>
+<body>
+    <header>
+        <img src="../IMG/incap.png" width="100" height="100" alt="incap">
+        <h1>LISTAS EN HTML</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>productos</li>
+            <li>servicios</li>
+            <li>contacto</li>
+        </ul>
+    </nav>
+    <section>
+        <form action="datos.php" method="post">
+            <fieldset>
+                <!-- seccion ingrese nombre -->
+                <label for="">nombre completo</label>
+                <input type="text" name="nombre" placeholder="&#9756; ingrese su nombre" required="">
+                <br><br>
+                <!-- seccion ingrese email -->
+                <label for="">email</label>
+                <input type="email" name="email" placeholder="&#9756; ingrese su email" required>
+                <br><br>
+                <!-- seccion ingrese contraseña -->
+                <label for="">contraseña</label>
+                <input type="contraseña" name="contraseña" placeholder="&#9745; ingrese su contarseña" required="">
+                <br><br>
+                <!-- seccion hobbies -->
+                <label for="">Seleccione hobbies</label>
+                <br>
+                    <input name="cine" type="checkbox"> cine<br>
+                    <input name="lectura" type="checkbox"> lectura<br>
+                    <input name="deporte" type="checkbox"> deporte<br>
+                <br><br>
+                <!-- estado civil -->
+                <label for="">estado civil</label>
+                <br>
+                <input name="estcivil" type="radio" value="casado">casado<br>
+                <input name="estcivil" type="radio" value="soltero">soltero<br>
+                <input name="estcivil" type="radio" value="viudo">viudo<br>
+                <br><br>
+                <!-- seccion opcion lista -->
+                <label>PROGRAMAS TECNICOS</label>
+                <select name="select">
+                    <option value="">sistemas</option>
+                    <option value="">diseño grafico</option>
+                    <option value="">contabilidad</option>
+                </select>
+                <br><br>
+                <!-- seccion de comentarios -->
+                <label for="">comentario</label><br>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </fieldset>
+            <br><br>
+            <!-- seccion de botones formulario -->
+            <button type="submit">enviar</button>
+            <button type="reset">cancelar</button>
+            <br>
+            <br>
+            </form>
+        <section>
+        <!-- seccion fonter pie de pagina -->
+        <footer>
+        <p></p>
+        </footer>
+        
+        </form>
+    </section>
+</body>
+</html>
